@@ -97,13 +97,11 @@ function writeToFile(fileName, data) {
    });
 }
 
+
 // TODO: Create a function to initialize app
 function init() {
-    inquirer.prompt(
-        {type:'input',
-        name: 'title',
-        message:'enter title'}
-    ).then(answers => writeToFile(answers.title,answers))
+    inquirer.prompt(questions).then(answers => console.log(answers))
+    //.then(answers => writeToFile(answers.title,answers))
 
    
 }
