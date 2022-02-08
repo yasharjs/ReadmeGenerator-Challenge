@@ -8,8 +8,13 @@ const generateMarkdown = require("./utils/generateMarkdown.js");
 // TODO: Create an array of questions for user input
 const questions = [
     {
+        type:'input',
+        name:'name',
+        message:'Enter author name:'
+    },
+    {
         type: 'input',
-        name: 'name',
+        name: 'username',
         message: 'Enter your Github username'
     },
     {
@@ -100,8 +105,8 @@ function writeToFile(fileName, data) {
 
 // TODO: Create a function to initialize app
 function init() {
-    inquirer.prompt(questions).then(answers => console.log(answers))
-    //.then(answers => writeToFile(answers.title,answers))
+    inquirer.prompt(questions)
+    .then(answers => writeToFile(answers.title,answers))
 
    
 }
