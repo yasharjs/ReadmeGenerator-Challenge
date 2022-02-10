@@ -58,6 +58,3 @@ Contact information is provided below:
 
 # License
 This project is licensed under the [The Unlicensed](https://choosealicense.com/licenses/unlicense/)
-
-
-
