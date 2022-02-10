@@ -17,7 +17,7 @@ This application is a tool to help the user generate a professional README for t
 
 # Installation
 
-[Instructional video!]()
+[Instructional video!](https://drive.google.com/file/d/1ZI8Csc_eq2WtpIDEtfdOLr0G2k2CDuiH/view)
 
 To use this application you must have Node.js installed on your system. Visit [website](https://nodejs.org/en/download/) to download and install.
 
